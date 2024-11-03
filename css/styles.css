@@ -53,29 +53,31 @@ color: #434455;
 .contacts-link:focus,
 .nav-link:hover,
 .nav-link:focus,
-.button-heading:hover, 
-.button-heading:focus {
+.button-title:hover, 
+.button-title:focus {
 color: #404bbf;
 }
 
-.heading,
-.subject {
+.title {
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-color: #fff;    
-}
-
-.button-heading {
+color: #fff;
+    }
+    
+.button-title {
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.04em;
 color: #fff;
 background-color: #4d5ae5;
 cursor: pointer;
 }
 
+.caption {
+background-color: #F4F4FD;
+}
+        
 .subtitle,
 .headline-subtitle,
 .subject-subtitle {
@@ -84,28 +86,12 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+background-color: #FFFFFF;
 } 
 
-.headline-subtitle, 
-.headline-subtitle-text {
-text-align: center;
-}
-
-.headline,
-.subject {
-font-size: 36px;
-line-height: 1.11;
- letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-text-transform: capitalize;
-background-color: #F4F4FD;
-}
-
 .text-subtitle,
-.headline-subtitle-text,
+.headline-subtitle-text
 .subject-subtitle-text {
-font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -113,7 +99,30 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-.heading,
+.headline {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.headline-subtitle, 
+.headline-subtitle-text {
+text-align: center;
+}
+
+.subject {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.title,
 .page-footer {
 background-color: #2e2f42;
 }
