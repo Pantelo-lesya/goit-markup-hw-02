@@ -52,7 +52,7 @@ color: #434455;
 .contacts-link:hover,
 .contacts-link:focus,
 .nav-link:hover,
-.nav-link:focus,{
+.nav-link:focus {
 color: #404bbf;
 }
 
@@ -68,7 +68,7 @@ color: #fff;
 font-weight: 500;
 line-height: 1.5;
 color: #fff;
-background-color: #090b26;
+background-color: #4D5AE5
 cursor: pointer;
 letter-spacing: 0.04em;
 }
@@ -112,6 +112,11 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 background-color: #F4F4FD;
+text-transform: capitalize
+}
+
+.headline {
+background-color: #FFFFFF;
 }
 
 .headline-subtitle, 
@@ -126,7 +131,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-text-transform: capitalize
+text-transform: capitalize;
 }
 
 .information,
