@@ -115,13 +115,13 @@ background-color: #F4F4FD;
 text-transform: capitalize
 }
 
-.headline-list {
-background-color: #FFFFFF;
-}
-
 .headline-subtitle, 
 .headline-subtitle-text {
 text-align: center;
+}
+
+.headline-list-item {
+background-color: #FFFFFF;
 }
 
 .subject {
