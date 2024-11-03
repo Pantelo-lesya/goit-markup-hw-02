@@ -52,9 +52,7 @@ color: #434455;
 .contacts-link:hover,
 .contacts-link:focus,
 .nav-link:hover,
-.nav-link:focus,
-.button-title:hover, 
-.button-title:focus {
+.nav-link:focus,{
 color: #404bbf;
 }
 
@@ -64,17 +62,24 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-    }
+}
     
 .button-title {
 font-weight: 500;
 line-height: 1.5;
 color: #fff;
-background-color: #4d5ae5;
+background-color: #090b26;
 cursor: pointer;
+letter-spacing: 0.04em;
 }
 
-.caption {
+.button-title:hover, 
+.button-title:focus {
+background-color: #404BBF;
+}
+
+.caption,
+.team {
 background-color: #F4F4FD;
 }
         
@@ -90,7 +95,7 @@ background-color: #FFFFFF;
 } 
 
 .text-subtitle,
-.headline-subtitle-text
+.headline-subtitle-text,
 .subject-subtitle-text {
 font-weight: 400;
 font-size: 16px;
@@ -106,6 +111,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+background-color: #F4F4FD;
 }
 
 .headline-subtitle, 
@@ -116,13 +122,14 @@ text-align: center;
 .subject {
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize
 }
 
-.title,
+.information,
 .page-footer {
 background-color: #2e2f42;
 }
